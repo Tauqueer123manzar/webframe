@@ -9,8 +9,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.main {
+  background-color: #7950F2;
+  height: 100vh !important;
+}
+
 .sidebar {
-  position: fixed;
   height: 100vh !important;
 }
 .sidebar li {
