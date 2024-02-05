@@ -54,4 +54,38 @@ code {
   color: #7750F1;
 }
 
+.top-articles .article-profile img {
+  width: 30px;
+  height: 30px;
+}
+.top-articles h6 {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.top-articles .created {
+  background-color: #E3D5FF;
+  color: #7950F2;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.top-articles .business {
+  color: #7950F2;
+}
+.top-articles .published {
+  background-color: #E4FFF8;
+  color: #0DAD82;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.top-articles .branding div {
+  background-color: #F8FAFB;
+}
+.top-articles button {
+  background-color: #E8E9FF;
+  color: #7950F2;
+}
+.top-articles i {
+  color: #7950F2;
+}
+
 /*# sourceMappingURL=style.css.map */
