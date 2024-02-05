@@ -9,4 +9,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.sidebar {
+  position: fixed;
+  height: 100vh !important;
+}
+.sidebar li {
+  transition: all 0.4s ease-in-out;
+}
+.sidebar li:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: #7950F2;
+}
+.sidebar li:hover a {
+  color: #fff !important;
+}
+.sidebar li:hover a i {
+  color: #fff !important;
+}
+
 /*# sourceMappingURL=style.css.map */
