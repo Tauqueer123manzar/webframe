@@ -3,9 +3,7 @@ $light: #fff;
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Urbanist', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,13 +14,13 @@ code {
 }
 
 .main {
-  background-color: #7950F2;
+  background-color: #E8E9FF;
   height: 100vh !important;
 }
 
 .sidebar {
   height: 100vh !important;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   li {
     transition: all 0.4s ease-in-out;
 
@@ -42,28 +40,62 @@ code {
     }
   }
 }
+.navbar{
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  input{
+    &:focus{
+      box-shadow: none;
 
-.card {
-  background-color: red !important;
+    }
+  }
+  img{
+    width: 30px !important;
+    height: 30px !important;
+  }
+  select{
+    &:focus{
+      box-shadow: none;
+      border: none;
+    }
+  }
 }
 
-.topStory {
-  margin-left: 17%;
+.dashboard{
+  .infoCard-row{
+    .card{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .icon{
+      background-color: #E8E9FF;
+      i{
+        color: #7750F1;
+      }
+    }
+  }
 }
 
-.container {
-  width: 100%;
-  height: 75%;
-}
 
-.card-1 {
-  width: 350px;
-  height: 450px;
-  margin-left: 2rem;
-  margin-top: 4rem;
-}
+// .card {
+//   background-color: red !important;
+// }
 
-.card-1 .image {
-  width: 350px;
-  height: 450px;
-}
+// .topStory {
+//   margin-left: 17%;
+// }
+
+// .container {
+//   width: 100%;
+//   height: 75%;
+// }
+
+// .card-1 {
+//   width: 350px;
+//   height: 450px;
+//   margin-left: 2rem;
+//   margin-top: 4rem;
+// }
+
+// .card-1 .image {
+//   width: 350px;
+//   height: 450px;
+// }

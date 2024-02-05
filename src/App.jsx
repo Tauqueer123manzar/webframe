@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App row m-0 p-0">
         <Sidebar />
-        <div className="main col-10 overflow-y-scroll">
+        <div className="main col-10 overflow-y-scroll m-0 p-0">
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Dashboard />} />
