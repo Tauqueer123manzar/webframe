@@ -3,7 +3,7 @@ import image1  from '../assets/images/image1.jpg'
 
 const TopStoriesCard=()=>{
     return(
-        <div className="col-4 card">
+        <div className="topStory col-4 card">
             <div className="container">
 
                 <div className="card-1">
