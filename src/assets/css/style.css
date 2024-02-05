@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Urbanist", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9,9 +9,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.sidebar {
-  position: fixed;
+.main {
+  background-color: #E8E9FF;
   height: 100vh !important;
+}
+
+.sidebar {
+  height: 100vh !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .sidebar li {
   transition: all 0.4s ease-in-out;
@@ -27,28 +32,60 @@ code {
   color: #fff !important;
 }
 
-.card {
-  background-color: red !important;
+.navbar input:focus {
+  box-shadow: none;
+}
+.navbar img {
+  width: 30px !important;
+  height: 30px !important;
+}
+.navbar select:focus {
+  box-shadow: none;
+  border: none;
 }
 
-.topStory {
-  margin-left: 17%;
+.dashboard .infoCard-row .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dashboard .infoCard-row .icon {
+  background-color: #E8E9FF;
+}
+.dashboard .infoCard-row .icon i {
+  color: #7750F1;
 }
 
-.container {
-  width: 100%;
-  height: 75%;
+.top-articles .article-profile img {
+  width: 30px;
+  height: 30px;
 }
-
-.card-1 {
-  width: 350px;
-  height: 450px;
-  background-image: url({image1});
+.top-articles h6 {
+  font-size: 20px !important;
+  font-weight: bold;
 }
-
-.card-1 .image {
-  width: 350px;
-  height: 450px;
+.top-articles .created {
+  background-color: #E3D5FF;
+  color: #7950F2;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.top-articles .business {
+  color: #7950F2;
+}
+.top-articles .published {
+  background-color: #E4FFF8;
+  color: #0DAD82;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.top-articles .branding div {
+  background-color: #F8FAFB;
+}
+.top-articles button {
+  background-color: #E8E9FF;
+  color: #7950F2;
+}
+.top-articles i {
+  color: #7950F2;
 }
 
 /*# sourceMappingURL=style.css.map */

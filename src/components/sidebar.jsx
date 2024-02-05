@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../assets/css/style.css";
 
 const Sidebar = () => {
@@ -5,16 +6,16 @@ const Sidebar = () => {
     <div className="sidebar col-2 bg-light">
       <ul className="m-0 p-0">
         <li className="m-0 p-2  mt-1 mb-1 rounded-3  list-unstyled ">
-          <a href="#" className="text-decoration-none text-black">
+          <Link to="/" className="text-decoration-none text-black">
             <i class="fs-4 bi bi-house pe-3"></i>
             Dashboard
-          </a>
+          </Link>
         </li>
         <li className="m-0 p-2  mt-1 mb-1 rounded-3  list-unstyled ">
-          <a href="#" className="text-decoration-none text-black">
+          <Link to="/contents" className="text-decoration-none text-black">
             <i class="fs-4 bi bi-file-earmark pe-3"></i>
             Content
-          </a>
+          </Link>
         </li>
         <li className="m-0 p-2  mt-1 mb-1 rounded-3  list-unstyled ">
           <a href="#" className="text-decoration-none text-black">
