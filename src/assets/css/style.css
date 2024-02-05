@@ -43,8 +43,7 @@ code {
 .card-1 {
   width: 350px;
   height: 450px;
-  margin-left: 2rem;
-  margin-top: 4rem;
+  background-image: url({image1});
 }
 
 .card-1 .image {

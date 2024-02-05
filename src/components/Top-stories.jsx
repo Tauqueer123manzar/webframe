@@ -7,11 +7,7 @@ const TopStoriesCard=()=>{
             <div className="container">
 
                 <div className="card-1">
-                    <div className="img">
-                        <img src={image1} alt="image" />
-                    </div>
-
-                    <div className="top">
+                     <div className="top">
                         <div className="view">
                             <i class="fa-regular fa-eye"></i>
                         </div>
