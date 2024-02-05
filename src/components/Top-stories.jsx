@@ -1,6 +1,6 @@
 const TopStoriesCard=()=>{
     return(
-        <div>
+        <div className="col-4">
             hello
         </div>
     );
